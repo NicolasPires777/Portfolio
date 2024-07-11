@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="profile">
+            <img src="./assets/profile.png" alt="Minha Foto" class="profile-photo">
+            <div class="profile-info">
+                <h1>Nicolas Vieira Pires</h1>
+                <p>Back-End Developer (Junior) | Amazon AWS enthusiast</p>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/seu-usuario" target="_blank">
+                    <img src="./assets/github-icon.png" alt="GitHub">
+                </a>
+                <a href="https://linkedin.com/in/seu-usuario" target="_blank">
+                    <img src="./assets/linkedin-icon.png" alt="LinkedIn">
+                </a>
+                <a href="https://wa.me/seu-numero" target="_blank">
+                    <img src="./assets/whatsapp-icon.png" alt="WhatsApp">
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="projetos">
+            <h2>Projects</h2>
+            <div class="project-carousel">
+                <button class="carousel-button left">◀</button>
+                <div class="project-card"> 
+                    <img src="/assets/project1.jpg" alt="Imagem do Projeto">
+                    <h3>Projeto 1</h3>
+                    <p>Linguagem utilizada</p>
+                </div>
+                <!-- Adicione mais cards de projeto conforme necessário -->
+                <button class="carousel-button right">▶</button>
+            </div>
+        </section>
+        <section id="certificacoes">
+            <h2>Certifications</h2>
+            <div class="certifications-carousel">
+                <button class="carousel-button left">◀</button>
+                <div class="certification-card"> 
+                    <img src="./assets/py2.jpg" alt="Imagem da Certificação">
+                    <h3>Python 3</h3>
+                    <p>Curso em Video</p>
+                </div>
+                <div class="certification-card"> 
+                    <img src="./assets/lua.jpg" alt="Imagem da Certificação">
+                    <h3>Lua</h3>
+                    <p>TTech Inc</p>
+                </div>
+                <div class="certification-card"> 
+                    <img src="./assets/telecom.png" alt="Imagem da Certificação">
+                    <h3>Telecomunicações</h3>
+                    <p>Instituto Federal de Santa Catarina</p>
+                </div>
+                <div class="certification-card"> 
+                    <img src="./assets/php.png" alt="Imagem da Certificação">
+                    <h3>PHP</h3>
+                    <p>Curso em Video</p>
+                </div>
+                <div class="certification-card"> 
+                    <img src="./assets/py2.jpg" alt="Imagem da Certificação">
+                    <h3>Python 3</h3>
+                    <p>Intermediário - 80 horas</p>
+                </div>
+                <!-- Adicione mais cards de certificação conforme necessário -->
+                <button class="carousel-button right">▶</button>
+            </div>
+        </section>
+    </main>
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h3>Detalhes do Projeto/Certificação</h3>
+            <p>Aqui vai a descrição e fotos do projeto/certificação.</p>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
